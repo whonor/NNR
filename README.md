@@ -13,7 +13,7 @@ Assume that now the pwd is `./NNR`, the downloaded and extracted MIND dataset sh
     (terminal) $ bash download_extract_MIND.sh # Assume this command is executed successfully
     (terminal) $ cd ../MIND-200k
     (terminal) $ tree -L 2
-    (terminal) $ .
+    (terminal) $ .download
                  ├── dev
                  │   ├── behaviors.tsv
                  │   ├── entity_embedding.vec
@@ -35,6 +35,7 @@ Assume that now the pwd is `./NNR`, the downloaded and extracted MIND dataset sh
                  └── wikidata-graph.zip
 <br/>
 
+And then run prepare_MIND_dataset.py.
 
 ## Environment Requirements
     (terminal) $ pip install -r requirements.txt
