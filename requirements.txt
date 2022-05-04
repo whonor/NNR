@@ -1,5 +1,5 @@
-torch>=1.9.0
-torchtext
-nltk
-numpy
-sklearn
+torc==1.9.0
+torchtext==0.10.0
+torch-scatter==2.0.9
+nltk==3.7
+scikit-learn==1.0.2
